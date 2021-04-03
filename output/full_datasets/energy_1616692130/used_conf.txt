@@ -1,0 +1,29 @@
+CONFIGURATION:
+dataset = full_datasets/energy
+output = /Users/yangtianyi/Release-0.0.2/output/full_datasets/energy_1616692130
+==============
+numSimulations = 5
+dataset = full_datasets/energy
+numAgents = 1000
+numPlans = 10
+planDim = 144
+numIterations = 50
+numChildren = 4
+--------------
+alpha = 0.0
+beta = 0.2
+global cost function = variance
+local cost function = index
+goal signal = null
+--------------
+permutationID = 0
+reorganizationSeed = 0
+permutationSeed = 0
+permutationFile = null
+reorganizationPeriod = 3
+memorizationOffset = 5
+reorganizationStrategy = NEVER
+convergenceTolerance = 0.5
+--------------
+loggingLevel = SEVERE
+Selected Loggers: ReorganizationLogger, PlanFrequencyLogger, WeightsLogger, VisualizerLogger, GlobalResponseVectorLogger, TerminationLogger, GlobalComplexCostLogger, SelectedPlanLogger, UnfairnessLogger, LocalCostMultiObjectiveLogger, GlobalCostLogger
